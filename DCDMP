@@ -1,4 +1,26 @@
 #!/bin/bash
+UID_ROOT=0
+#E_NONROOT=67
+if [ $UID != $UID_ROOT ]
+then
+  clear
+  echo "ACCES REFUSE : Vous devez étre en mode superviseur pour exécuter ce script "
+  exit 
+ 
+else
+clear
+  echo "Vous etes le superviseur"
+  echo ""
+  echo
+
+
+
+
+
+
+
+
+
 
 echo -e '\E[1;31;40m'
 echo "             ***** premier chiffrement *****           "
@@ -24,7 +46,9 @@ echo
 echo "TERMINER"
 
 
+fi 
 
+exit 0UID_ROOT=0
 
 
 
