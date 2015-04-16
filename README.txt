@@ -15,8 +15,13 @@ then
  
 else
   clear
+<<<<<<< HEAD
   echo "Vous etes le superutilisateur"
   echo ""
+=======
+  echo "Vous etes le superviseur"
+  
+>>>>>>> baacad1c5fb108ebe449c56e2962977a90ad5ac9
   echo "************************************************************************************************************************************************************"
   clear
   cd $REP_TRACES
