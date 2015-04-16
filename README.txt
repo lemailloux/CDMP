@@ -10,7 +10,7 @@ clear
 if [ $UID != $UID_ROOT ]
 then
   clear
-  echo "ACCES REFUSE : Vous devez étre en mode superviseur pour exécuter ce script intégration PHP"
+  echo "ACCES REFUSE : Vous devez étre en mode superutilisateur pour exécuter ce script intégration PHP"
   exit $E_NONROOT
  
 else
@@ -21,7 +21,7 @@ else
 =======
   echo "Vous etes le superviseur"
   
->>>>>>> baacad1c5fb108ebe449c56e2962977a90ad5ac9
+
   echo "************************************************************************************************************************************************************"
   clear
   cd $REP_TRACES
