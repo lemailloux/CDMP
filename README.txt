@@ -15,7 +15,7 @@ then
  
 else
   clear
-  echo "Vous etes le superviseur"
+  echo "Vous etes le superutilisateur"
   echo ""
   echo "************************************************************************************************************************************************************"
   clear
